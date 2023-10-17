@@ -1,0 +1,281 @@
+body{
+    background-color: rgba(203, 203, 234, 0.875);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+nav ul{
+display: flex;
+justify-content: space-evenly;
+gap: 5rem;
+}
+nav li a:hover{
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 20px;
+  background-color: white;
+  padding: 7px;
+}
+nav li{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem;
+}
+.Expert{
+    font-weight:bolder;
+    font-size: 2rem;
+}
+.paragraph1{
+    margin-bottom: 0%;
+}
+.paragraph2{
+    margin-top: 0%;
+}
+.hireMe{
+    border: 0.2rem;
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: -0.3rem;
+    color: blue;
+    text-decoration: none;
+}
+.see{
+    border-style: solid;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    margin-top: -0.3rem;
+    color:blue;
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    
+}
+.services{
+    
+    justify-content: center;
+    background-color: rgba(224, 210, 210, 0.097);
+    font-size: 5rem;
+
+    
+}
+div ul{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    list-style: none;
+    
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background:none;
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    font-weight: 60;
+    font-size: 5rem;
+    text-shadow: 3px 3px #d0c3c3;
+  }
+  .par1{
+    display: flex;
+    display: flexbox;
+    padding: 4px;
+    margin-right: 3rem;
+    margin-left: 3rem;
+  }
+  .pi{
+    margin-left: 0rem;
+    margin-right: 7rem;
+    font-size: medium;
+  }
+  ul button{
+    color:black;
+    background-color:  blue;
+    border-radius: 20px;
+    padding: 5px;
+    font-size: x-small;
+    border: 1px solid black;
+    font-size: small;
+    text-align: left;
+    display: inline-block;
+    font-size: 10px;
+    width: 150px;
+    padding-bottom: 10px;
+  }
+  footer ul{
+    justify-content: center;
+  }
+  .last p{
+    text-align: center;
+  }
+  .info p{
+    text-align: center;
+  }
+  hr{
+  margin-left: 1.5rem; 
+  }
+  section.WebH{
+    padding-top: 0rem;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  section.WebD{
+    padding-top: 0rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  section.Cyber{
+    padding-top: 0rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  header{
+    background-color: white;
+    padding-bottom: 0rem;
+  }
+  .head{
+    background-color: white;
+  }
+  h3{
+    text-align: center;
+    background-color: white;
+    font-weight: 60;
+    font-size:5rem ;
+  }
+  .clients{
+    background-color: white;
+  }
+  section.info{
+    padding: 0rem;
+  }
+  section.last{
+    padding: 0rem;
+  }
+  p.lorem{
+    margin-top: 0rem;
+  }
+  p.name{
+    margin-bottom: 0rem;
+  }
+  h4{
+    font-weight: lighter;
+    margin-bottom: 0rem;
+    margin-left: 3.4rem;
+    font-size: 2rem;
+  }
+  h5{
+    text-align: center;
+    padding-left: 9rem;
+    padding-right: 9rem;
+    font-weight: lighter;
+    margin-bottom: 0rem;
+    font-size: 20px;
+  }
+  .h5{
+    margin-top: 0rem;
+  }
+  div.par1{
+    margin-top: 0rem;
+  }
+  .head li{
+    list-style: none;
+   }
+   section li{
+    font-weight: bold;
+   }
+   .dots{
+    text-align: center;
+    font-size: 3rem;
+   }
+  .tk{
+    margin-left: 5rem;
+    
+  }
+   .clients img{
+    border-radius: 100%;
+    width: 50px;
+    margin-left: 50rem;
+   }
+
+   .image{
+    height: 2rem;
+    width:2rem ;
+    display: flex;
+   }
+   .img{
+    height: 16rem;
+    width: 16rem;
+    display: inline-flex;
+    flex-direction: column;
+    padding-left: 16rem;
+    padding-top: 1rem;
+   }
+   .one button{
+     
+    color: blanchedalmond;
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 0;
+   }
+   .port{
+    font-size: 3rem;
+   }
+   .title{
+    font-size: 5rem;
+    text-align: center;
+    font-size: 3rem;
+   }
+   .secA{
+    font-size: 3rem;
+
+   }
+   .Toka{
+    height: 30rem;
+    width: 30rem;
+    margin-top: 10%;
+   }
+   .what{
+    display: inline-flex;
+    flex-direction: column;
+    height: 1.5rem;
+    width: 1.5rem;
+    align-items: center;
+    left: 50%;
+    padding-left: 23rem;
+   }
+
+
